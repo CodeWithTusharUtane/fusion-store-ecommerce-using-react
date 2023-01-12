@@ -2,7 +2,7 @@ import React from 'react'
 import {AiOutlineFacebook, AiOutlineGithub, AiOutlineInstagram, AiOutlineLinkedin, AiOutlineTwitter} from 'react-icons/ai'
 const Footer = () => {
   return (
-    <footer className='bg-[#172337] text-white  w-screen h-fit md:flex md:space-x-44'>
+    <footer className='bg-[#172337] text-white  w-screen h-fit md:flex md:space-x-10 lg:flex lg:space-x-44'>
 <div className=' pt-4 text-xl '>
         <span  className='text-3xl text-center ml-3 border-2 border-white/40 px-4'>Fusion Store</span>
         <h3 className=' pt-3 ml-5'>Contact Us</h3>

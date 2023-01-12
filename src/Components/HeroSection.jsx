@@ -1,15 +1,18 @@
 import React from "react";
-import xiiaomi5g from "../Assests/xiaomi5g.webp";
+import heroImg from '../Assests/hero-img.png'
 const HeroSection = () => {
   return (
-    <div className="">
-      <img src={xiiaomi5g} alt="" />
-      <div className="absolute text-white top-11 text-xl left-3 md:flex md:absolute md:text-white md:top-28  md:text-8xl md:left-14">XIAOMI 11i</div>
-      <div className="absolute text-white top-[62px] text-lg left-3 md:flex md:absolute md:text-white md:top-52 md:text-5xl md:left-14">Hypercharge 5G</div>
-      <div className="absolute text-white top-[85px] text-base left-3 md:flex md:absolute md:text-white md:top-[270px] md:text-3xl md:left-14">India's Fastest Charging Smartphone</div>
-      <div className="absolute text-white top-[110px] text-sm left-3 md:flex md:absolute md:text-white md:top-[350px] md:text-3xl md:left-14 ">From ₹26,999 <strike className="text-xs md:text-2xl ">₹31,999</strike></div>
-      <div className="absolute  bg-white top-[140px] px-1 text-xs left-5 p-1 rounded-full hover:bg-gray-300 md:flex md:absolute  md:bg-white md:top-[410px] md:px-4 md:text-xl md:left-14 md:p-2 md:rounded-full md:hover:bg-gray-300">Buy Now </div>
+   <div>
+    <div className="w-11/12 xl:w-4/5 xl:h-[350px] m-auto bg-stone-200 rounded-xl md:mb-5 xl:flex">
+      <div className="xl:my-5">
+        <h2 className="p-4 text-2xl  font-semibold">Trending Product in 2022</h2> 
+        <h2 className="text
+        text-3xl capitalize  px-4 font-bold xl:text-4xl ">make your interior more minimalistic & Modern</h2>
+        <h5 className="capitalize px-4 py-3 xl:py-[5rem] xl:text-2xl">Modern Sofas, Artificial Plants, Lamps, and many more Room decor at low and affordable cost. Get this amazing deal today before price hike</h5>
+      </div>
+      <img src={heroImg} alt="" className=""/>
     </div>
+   </div>
   );
 };
 
