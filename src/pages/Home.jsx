@@ -11,7 +11,6 @@ const Home = () => {
       <HeroSection/>
       <Card/>
       <SaleSection/>
-      
       <Footer />
     </div>
   )
