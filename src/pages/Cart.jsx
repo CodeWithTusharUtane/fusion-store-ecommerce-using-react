@@ -1,8 +1,16 @@
 import React from 'react'
-
+import Header from '../Components/Header'
+import Footer from '../Components/Footer'
 const Cart = () => {
   return (
-    <div>Cart</div>
+    <>
+    <Header/>
+    <div>
+
+      
+    </div>
+    <Footer/>
+    </>
   )
 }
 
