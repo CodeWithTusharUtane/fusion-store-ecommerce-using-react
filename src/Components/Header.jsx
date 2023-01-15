@@ -34,13 +34,19 @@ const Header = () => {
         </ul>
       </div>
       <div className="flex space-x-8 ">
-        <NavLink to="/cart">
+        <NavLink to="/cart" className={({ isActive }) =>
+    isActive ? 'text-rose-300 font-bold' : ''
+  }>
         <AiOutlineShoppingCart size={"1.5rem"} className="hover:text-rose-400"/>
         </NavLink>
-        <NavLink to="/login">
+        <NavLink to="/login" className={({ isActive }) =>
+    isActive ? 'text-black font-bold' : ''
+  }>
         <span className="hover:text-rose-400 hover:underline hover:underline-offset-8 cursor-pointer">Log In</span>
         </NavLink>
-        <NavLink to="/signup">
+        <NavLink to="/signup" className={({ isActive }) =>
+    isActive ? 'text-black font-bold' : ''
+  }>
         <span className="hover:text-rose-400 hover:underline hover:underline-offset-8 cursor-pointer">Sign Up</span>
         </NavLink>
       </div>
